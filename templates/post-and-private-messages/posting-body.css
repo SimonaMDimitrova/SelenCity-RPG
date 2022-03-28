@@ -1,0 +1,58 @@
+.panel .inner dt label {
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    top: 5px;
+}
+
+fieldset.fields1 dt {
+    border-right-width: 0;
+    width: 150px;
+}
+
+.panel .inner fieldset dl {
+    padding: 4px 0;
+    position: relative;
+    top: 7px;
+}
+
+.fields1 input.inputbox {
+    border-color: #6a6a6a;
+    font-size: 12px;
+    height: 17px;
+    min-width: 194px;
+    width: 450px;
+}
+
+#smiley-box,
+.smile-status-box {
+    float: right;
+    margin-top: 7px;
+    width: 18%;
+}
+
+.postbody {
+    background: #f7f7f7;
+    clear: both;
+    color: #121212;
+    float: left;
+    line-height: 1.48em;
+    padding: 10px;
+    width: 707px;
+    margin-top: 7px;
+    border-bottom: 2px solid #7c91b6;
+}
+
+#main-content .panel .inner .h3 {
+    position: unset;
+}
+
+#main-content .inner .postbody .h3 {
+    position: unset;
+}
+
+#main-content .h3 {
+    font-weight: 700;
+    position: relative;
+    left: 11px;
+}

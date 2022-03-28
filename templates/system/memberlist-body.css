@@ -1,0 +1,14 @@
+.forumbg table.table1 {
+    width: 957px;
+    background: #f7f7f7;
+    position: relative;
+    left: 5px;
+    border-top: 2px solid #6c87ac;
+    border-bottom: 2px solid #6c87ac;
+    padding-top: 5px;
+}
+
+#memberlist thead tr th {
+    color: #6c87ac;
+    font-weight: 700;
+}

@@ -1,0 +1,239 @@
+.logo-image {
+    height: 475px;
+    width: 428px;
+    position: relative;
+    bottom: 5px;
+}
+
+.logo-stats {
+    height: 420px;
+    width: 258px;
+    background: white;
+    float: right;
+    padding: 15px;
+    border-top: 2.5px solid #121212;
+    position: relative;
+    right: 3px;
+}
+
+.logo-info {
+    background: #fff;
+    border-top: 2.5px solid #121212;
+    float: right;
+    height: 420px;
+    padding: 15px;
+    position: relative;
+    right: -1px;
+    width: 412px;
+}
+
+.container div {
+    display: inline-block;
+}
+
+.container {
+    height: 473px;
+    left: 15px;
+    position: relative;
+    width: 870px;
+}
+
+.logo-title-h1 {
+    color: #9dafc8;
+    font-family: 'Mr Dafoe';
+    font-size: 96px;
+    left: -261px;
+    position: absolute;
+    text-shadow: 3px 0 1px #121212;
+    top: 179px;
+    transform: rotate( -90deg);
+    z-index: 999;
+}
+
+.event-title {
+    border-top: 5px solid #9dafc8;
+    font-family: Oswald;
+    font-size: 15px;
+    left: 18px;
+    letter-spacing: 10px;
+    padding-top: 5px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+    top: 2.5px;
+    width: 865px;
+    word-spacing: 5px;
+}
+
+.sub-title {
+    font-family: 'Oswald';
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-bottom: 7.5px;
+    color: #121212;
+}
+
+.quick-links {
+    background: #9dafc8;
+    line-height: 2.4;
+    width: 32%;
+    display: inline-block;
+    font-size: 8px;
+    padding: 0;
+    margin: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.description-info-choices a {
+    color: #fff;
+}
+
+.description-info-choices a:hover {
+    color: #465d7d;
+}
+
+.description-info {
+    background: white;
+    display: block;
+    font-family: Arial;
+    font-size: 13px;
+    overflow: auto;
+    padding: 7.5px;
+    margin: 15px 15px 15px 205px;
+    text-align: center;
+    height: 220px;
+}
+
+.desc-wrapper {
+    background: url('https://i.imgur.com/Adi6XLK.png');
+    margin-bottom: 15px;
+}
+
+.description-info-choices {
+    font-family: 'Arial';
+    display: block;
+    border-top: 15px solid transparent;
+    border-image: url('https://i.imgur.com/Adi6XLK.png') 10 round;
+    padding: 7.5px;
+    font-size: 13px;
+    height: 68px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    line-height: 30px;
+    border-bottom: 2.5px solid transparent;
+    text-align: center;
+    width: 397px;
+}
+
+.description-info-houses {
+    font-family: 'Arial';
+    display: block;
+    border-top: 15px solid transparent;
+    border-image: url('https://i.imgur.com/Adi6XLK.png') 10 round;
+    padding: 7.5px;
+    font-size: 13px;
+    height: 176px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    line-height: 30px;
+    border-bottom: 2.5px solid transparent;
+    text-align: left;
+}
+
+.description-info-houses img {
+    width: 106.5px;
+    height: 41.5px;
+    margin-bottom: -6px;
+    /*background: linear-gradient(90deg, rgba(124,145,182,1) 0%, rgba(164,179,204,1) 35%, rgba(206,214,227,1) 72%, rgba(255,255,255,1) 100%);*/
+    background: linear-gradient(90deg, rgba(164, 179, 204, 1) 0%, rgba(206, 214, 227, 1) 52%, rgba(255, 255, 255, 1) 100%);
+}
+
+.house-name {
+    border-bottom: 1px solid #121212;
+    bottom: 20px;
+    left: 5px;
+    display: inline-block;
+    font-family: Oswald;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding-left: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 52.5%;
+    word-spacing: 3px;
+}
+
+.house-points {
+    display: inline-block;
+    font-size: 11px;
+    left: 110px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    position: relative;
+    width: 52.5%;
+    bottom: 14.5px;
+}
+
+.houses-arrows {
+    position: relative;
+    bottom: 16px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.description-info-houses span {
+    margin-bottom: -20.5px;
+}
+
+#left-arrow,
+#right-arrow {
+    color: #cccccc;
+    cursor: pointer;
+}
+
+#left-arrow:hover,
+#right-arrow:hover {
+    color: #9dafc8;
+}
+
+.w3-grey {
+    background-color: #9dafc8!important;
+    border: 1px solid #bdbdbd!important;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    bottom: 1px;
+    float: left;
+    right: 1px;
+}
+
+.w3-border {
+    border: 1px solid #bdbdbd!important;
+    background: #f1f1f1;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.diseased {
+    font-family: 'Arial';
+    display: block;
+    border-top: 15px solid transparent;
+    border-image: url('https://2img.net/i.imgur.com/HRSENbO.png') 30 round;
+    text-align: justify;
+    padding: 7.5px;
+    font-size: 13px;
+    height: 110px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    line-height: 30px;
+    border-bottom: 2.5px solid transparent;
+}

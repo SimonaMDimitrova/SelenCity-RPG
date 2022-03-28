@@ -1,0 +1,9 @@
+fieldset.polls {
+    font-family: Arial;
+    padding: 5px;
+}
+
+fieldset.polls dt,
+fieldset.polls dd {
+    margin-top: 7px;
+}

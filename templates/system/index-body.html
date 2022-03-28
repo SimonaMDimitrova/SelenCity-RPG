@@ -1,0 +1,114 @@
+{JAVASCRIPT} {CAT_NAME}
+<br class="clear" />
+
+<!-- BEGIN switch_user_login_form_header -->
+<div class="panel">
+    <div class="inner"><span class="corners-top"><span></span></span>
+        <form action="{S_LOGIN_ACTION}" method="post" name="form_login">
+            <div class="user_login_form center">
+                <label>{L_USERNAME} : <input class="post" type="text" size="10" name="username" /></label>&nbsp;
+                <label>{L_PASSWORD} : <input class="post" type="password" size="10" name="password" /></label>&nbsp;
+                <label>{L_AUTO_LOGIN} : <input class="radio" type="checkbox" name="autologin" {AUTOLOGIN_CHECKED} /></label>&nbsp; {S_HIDDEN_FIELDS}
+                <input class="mainoption button1" type="submit" name="login" value="{L_LOGIN}" />
+
+                <!-- BEGIN switch_social_login -->
+                <div class="social_btn">
+                    <!-- BEGIN fb_connect -->
+                    <div class="fb-login-button"></div>
+                    <!-- END fb_connect -->
+                    <!-- BEGIN topicit_connect -->
+                    <div class="ti-connect"></div>
+                    <!-- END topicit_connect -->
+                </div>
+                <!-- END switch_social_login -->
+            </div>
+        </form>
+        <span class="corners-bottom"><span></span></span>
+    </div>
+</div>
+<!-- END switch_user_login_form_header -->
+
+<!-- BEGIN message_admin_index -->
+<div class="panel introduction">
+    <div class="inner"><span class="corners-top"><span></span></span>
+        <!-- BEGIN message_admin_titre -->
+        <div class="h3">{message_admin_index.message_admin_titre.MES_TITRE}</div>
+        <!-- END message_admin_titre -->
+
+        <!-- BEGIN message_admin_txt -->
+        <div class="mes-txt">{message_admin_index.message_admin_txt.MES_TXT}</div>
+        <!-- END message_admin_txt -->
+        <span class="corners-bottom"><span></span></span>
+    </div>
+</div>
+<!-- END message_admin_index -->
+
+{CHATBOX_TOP} {BOARD_INDEX}
+
+<!-- BEGIN disable_viewonline -->
+
+<!-- BEGIN switch_viewonline_nolink -->
+<div class="h3">{L_WHO_IS_ONLINE}</div>
+<!-- END switch_viewonline_nolink -->
+<div class="clear"></div>
+
+<!-- END disable_viewonline -->
+
+{CHATBOX_BOTTOM}
+
+<br style="clear:both" />
+
+<!--dddddddddddddddddddddddddddddddddddddddddddddddd-->
+
+{AUTO_DST}
+
+
+<center>
+    <div class="who-is-online-upline"></div>
+    <div class="who-is-online-h1">Statistic</div>
+    <div class="container-whoIsOnline">
+
+        <div class="groups-whoIsOnline">
+            <div style="background: #9BB7BF;"><a href="https://selencity.forumotion.eu/g3-selenes">Selenes</a></div>
+            <div style="background: #CC91B7;"><a href="https://selencity.forumotion.eu/g4-venusians">Venusians</a></div>
+            <div style="background: #91b3a3;"><a href="https://selencity.forumotion.eu/g7-mercurians">Mercurians</a></div>
+            <div style="background: #C92626;"><a href="https://westerosrpg.forumotion.com/g5-group">Lannister</a></div>
+            <div style="background: #F76708;"><a href="https://westerosrpg.forumotion.com/g8-group">Martell</a></div>
+            <div style="background: #117516;"><a href="https://westerosrpg.forumotion.com/g9-group">Tyrell</a></div>
+            <div style="background: #3D7394;"><a href="https://westerosrpg.forumotion.com/g10-group">Arryn</a></div>
+            <div style="background: #748A91;"><a href="https://westerosrpg.forumotion.com/g11-group">Tully</a></div>
+            <div style="background: #55574D;"><a href="https://westerosrpg.forumotion.com/g12-group">Children of the forest</a></div>
+            <div style="background: #121212;"><a href="https://westerosrpg.forumotion.com/g13-group">Night Watch</a></div>
+            <div style="background: #D6BC89;"><a href="https://westerosrpg.forumotion.com/g14-group">Gods</a></div>
+            <div style="background: #9A74A1;"><a href="https://westerosrpg.forumotion.com/g15-group">Others</a></div>
+
+        </div>
+        <div class="who-is-online-titles">currently online</div>
+        <div class="who-is-online-titles">last connected</div>
+        <div class="who-is-online-mini-containers">
+
+
+            {TOTAL_USERS_ONLINE}<br /> {RECORD_USERS}
+
+            <br /> {LOGGED_IN_USER_LIST}
+            <br /> {L_ONLINE_USERS} {L_WHOSBIRTHDAY_TODAY}
+
+            <br />
+
+        </div>
+        <div class="who-is-online-mini-containers">
+            {L_CONNECTED_MEMBERS}
+        </div>
+
+        <p class="page-bottom">
+            {TOTAL_POSTS}
+        </p>
+        <p class="page-bottom">
+            {TOTAL_USERS}
+        </p>
+        <p class="page-bottom">
+            {NEWEST_USER}
+        </p>
+    </div>
+
+</center>

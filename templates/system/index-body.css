@@ -1,0 +1,131 @@
+.who-is-online-titles {
+    width: 426px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-right: 8px;
+    left: 4px;
+    text-align: center;
+    display: inline-block;
+    background: #ced7e3;
+    top: 5px;
+    border-bottom: 2px solid #6c87ac;
+    color: #6c87ac;
+    font-family: Oswald;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    margin-top: 3px;
+}
+
+.groups-whoIsOnline {
+    width: 889px;
+    padding-top: 8.5px;
+    padding-bottom: 1.5px;
+}
+
+.groups-whoIsOnline div {
+    display: inline-block;
+    padding: 8px;
+    margin: 6px;
+    font-family: Oswald;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+.groups-whoIsOnline div a {
+    color: #ffffff;
+    position: relative;
+    left: 1px;
+}
+
+.who-is-online-mini-containers {
+    width: 426px;
+    height: 250px;
+    padding: 15px;
+    border-bottom: 2px solid #6c87ac;
+    position: relative;
+    margin-bottom: 14.5px;
+    margin-top: 5.5px;
+    margin-right: 8px;
+    left: 4px;
+    text-align: justify;
+    background: #ffffff;
+    overflow: auto;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.who-is-online-title {
+    color: #9dafc8;
+    font-family: 'Mr Dafoe';
+    font-size: 100px;
+    right: 171px;
+    position: absolute;
+    text-shadow: 3px 0 1px #121212;
+    top: 160px;
+    transform: rotate(-90deg);
+    z-index: 999;
+}
+
+.container-whoIsOnline {
+    left: 4px;
+    bottom: 12px;
+    position: relative;
+    width: 957px;
+    border-bottom: 8px solid #6c87ac;
+    box-shadow: 0 2px 0 #ced7e3;
+    background: #f7f7f7;
+}
+
+.who-is-online-upline {
+    position: relative;
+    bottom: 14px;
+    width: 957px;
+    border-bottom: 2px solid #ced7e3;
+    left: 4px;
+}
+
+.who-is-online-h1 {
+    color: #6c87ac;
+    font-size: 50px;
+    font-family: Oswald;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 14px;
+    letter-spacing: -2px;
+    text-shadow: 2px 0 0 #ced7e3;
+    border-bottom: 8px solid #6c87ac;
+    border-top: 8px solid #6c87ac;
+    box-shadow: 0 2px 0 #ced7e3;
+    width: 917px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 4px;
+    text-transform: uppercase;
+}
+
+#page-body p.page-bottom {
+    margin: 0;
+    width: 307px;
+    display: inline-block;
+    padding: 6px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    vertical-align: top;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    left: 10px;
+    bottom: 7px;
+}

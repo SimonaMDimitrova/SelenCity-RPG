@@ -1,0 +1,8 @@
+.page-title-profile {
+    background: #f7f7f7!important;
+    width: 920px!important;
+}
+
+#cp-main .panel.sig {
+    background-color: unset;
+}

@@ -1,0 +1,78 @@
+.forumbg-all {
+    border-bottom: 2px solid #6c87ac;
+    border-top: 2px solid #6c87ac;
+    clear: both;
+    margin-bottom: 4px;
+    padding: 0 5px;
+    background: #f7f7f7;
+    width: 945px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+ul.topiclist li.header {
+    margin: 0;
+    display: block;
+    color: #f7f7f7;
+}
+
+.topicsButtons {
+    color: #9dafc8;
+    display: inline-block;
+    font-family: 'Oswald';
+    font-size: 20px;
+    left: 1px;
+    margin-right: 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.buttons div span {
+    display: inline;
+}
+
+fieldset.vf_jumpbox {
+    height: auto;
+    min-height: 2.5em;
+    text-align: right;
+    position: relative;
+    right: 3px;
+}
+
+.topic-actions {
+    height: auto;
+    position: relative;
+    left: 10px;
+}
+
+h1.page-title {
+    background: #fff;
+    border-bottom: 6px solid #6c87ac;
+    border-top: 6px solid #6c87ac;
+    color: #6c87ac;
+    display: inline-block;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 900;
+    left: 10px;
+    letter-spacing: 0px;
+    margin-right: 8px;
+    margin-top: 3px;
+    padding: 5px 0px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 957px;
+    word-spacing: 2px;
+}
+
+p.nomargin {
+    font-size: 12px;
+    line-height: 1.3em;
+    position: relative;
+    right: 10px;
+    top: 7px;
+    margin-bottom: 0;
+}
